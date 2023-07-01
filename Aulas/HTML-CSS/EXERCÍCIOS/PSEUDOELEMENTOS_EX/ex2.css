@@ -1,0 +1,5 @@
+li::before{
+    width: 50px;
+    content: url(https://img.icons8.com/color/1x/trophy.png);
+    
+}

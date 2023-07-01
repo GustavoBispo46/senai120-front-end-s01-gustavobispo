@@ -1,0 +1,63 @@
+:root{
+    --tamanhoFontPrincipal: 2em;
+    --varCorTextoPrincipal: gold;
+    --fonte: 'Cardo', serif;
+    --tamanhofonte: 20px;
+    --corfundo: black;
+    --cortexto: gold;
+    --fundodeTexto: brown;
+    --bordaimagem:10px;
+    --tamanhoimg:650px;
+    --redesocial:50px;
+    --bordaTexto: 1px solid gold;
+}
+body{
+    background-color: var(--corfundo);
+}
+.titulo{
+    text-align: center;
+    font-size: var(--tamanhoFontPrincipal);
+   color: var(--varCorTextoPrincipal);
+width: 100%;
+background-color: var(--fundodeTexto);
+}
+
+.imgporsche{
+    display: flex;
+    justify-content: center;
+    border-radius: var(--bordaimagem);
+
+}
+
+.textoporsche{
+    color: var(--cortexto);
+    display: flex;
+   justify-items: center;
+   margin-right: 20%;
+   margin-left: 20%;
+   margin-top: 1%;
+   font-family: var(--fonte);
+   font-size: var(--tamanhofonte);
+   background-color: var(--corfundo);
+   border-top:var(--bordaTexto) ;
+   border-left: var(--bordaTexto);
+   border-right: var(--bordaTexto);
+   border-bottom: var(--bordaTexto);
+   background-color:var(--corfundo);
+   margin-bottom: 5%;
+}
+.logo{
+    display: flex;
+    margin-left: 3%;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: brown;
+}
+   .redessociais{
+    width: var(--redesocial);
+   }
+  

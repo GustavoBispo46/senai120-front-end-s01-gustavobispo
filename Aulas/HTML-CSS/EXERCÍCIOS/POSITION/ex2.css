@@ -1,0 +1,17 @@
+.caixa_1{
+    background-color: blue;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    top:50px;
+    left:50px;
+}
+.caixa_2{
+    background-color: aquamarine;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+}

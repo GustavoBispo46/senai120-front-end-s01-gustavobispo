@@ -1,0 +1,9 @@
+.preço::after{
+    content: '← 10% de desconto á vista!';
+    font-size: 2em;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}

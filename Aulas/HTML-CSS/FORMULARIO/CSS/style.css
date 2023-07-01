@@ -1,0 +1,35 @@
+body,
+html {
+    /*sempre colocar body e html aqui no css para começar o estilo do site*/
+    height: 100%;
+    width: 100%;
+    background-color: rgb(40, 99, 44);
+}
+
+.cabecalho {
+    height: 100px;
+    width: 100%;
+    background-color: #a52a2a;
+}
+
+.principal{
+    height: 500px;
+    width: 25%;
+    background-color: antiquewhite;
+    margin: 200px auto;
+}
+.formulario{
+    height: 80%;
+    width: 100%;
+    padding-top: 20%;
+    background-color: rgb(122, 252, 209);
+}
+.container{
+    display: block;
+    margin-left: 20%;
+    height: 33%;
+}
+label,input{
+    display: block;
+    margin: 20px;
+}

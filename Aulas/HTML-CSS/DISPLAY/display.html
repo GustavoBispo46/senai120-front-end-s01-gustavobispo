@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.textos {
+    width: 150px;
+    height: 100px;
+    display: inline-block; /*inline preserva altura, largura e margens*/
+
+    background-color: rgb(230, 133, 15);
+    margin: 100px 20px 100px 50px;
+}
+#texto1{
+    display: block; /* À partir da altura ou margem ocupa 100% das laterais*/
+}
+#texto1{
+    display: inline; /* Remove altura, largura e preserva apenas a largura da margem*/
+  }
+
+    </style>
+
+</head>
+<body>
+    <h1 class="textos" id="texto1">Gustavo</h1>
+    <h1 class="textos" id="texto2">Bispo</h1>
+    <h1 class="textos" id="texto3">Acioli</h1>
+</body>
+</html>

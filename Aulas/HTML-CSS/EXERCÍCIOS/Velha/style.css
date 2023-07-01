@@ -1,0 +1,112 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://d2lv662meabn0u.cloudfront.net/boomerang/dynamic/editorials_content/00000001/1723/89c5f58be7254fa9ad0d9d477f2d45d2ce87a836_1594802915.jpg);
+}
+.container1{
+    height: 800px;
+    width: 50%;
+    margin-left: 20%;
+    background-color: transparent;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "box1 box2 box3"
+    "box4 box5 box6"
+    "box7 box8 box9";
+}
+.menu{width: 100%;
+    display: flex;
+    
+}
+.reiniciar{
+    border-radius: 34px;
+    background-color: orange;
+}
+.titulo{
+    font-family: 'Rubik Pixels', cursive;
+    font-size: 3em;
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: orange;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pontuação{
+    display: flex;
+}
+.reiniciar{
+    margin: 1%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   border-radius: 5px;
+   background-color: orange;
+   border-radius: 30px;
+font-size: 10em;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   }
+   
+.box{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+   
+}
+.box1, .bt1{
+    height: 200px;
+    width: 200px;
+    grid-area: box1;
+}
+.box2, .bt2{
+    height: 200px;
+    width: 200px;
+    grid-area: box2;
+}
+.box3, .bt3{
+    height: 200px;
+    width: 200px;
+    grid-area: box3;
+}
+.box4, .bt4{
+    height: 200px;
+    width: 200px;
+    grid-area: box4;
+}
+.box5, .bt5{
+    height: 200px;
+    width: 200px;
+    grid-area: box5;
+}
+.box6, .bt6{
+    height: 200px;
+    width: 200px;
+    grid-area: box6;
+}
+.box7, .bt7{
+    height: 200px;
+    width: 200px;
+    grid-area: box7;
+}
+.box8, .bt8{
+    height: 200px;
+    width: 200px;
+    grid-area: box8;
+}
+.box9, .bt9{
+    height: 200px;
+    width: 200px;
+    grid-area: box9;
+}
